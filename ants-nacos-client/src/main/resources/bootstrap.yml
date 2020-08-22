@@ -1,0 +1,9 @@
+spring:
+  application:
+    name: nacos-service-client
+  cloud:
+    nacos:
+      config:
+        server-addr: 127.0.0.1:8848
+        group: DEFAULT_GROUP
+        file-extension: yaml   #要与配置中心文件后缀完全匹配  yml=yml   yaml=yaml  properties=properties
